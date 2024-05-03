@@ -5,7 +5,7 @@ problem was solved.
 
 If there are any versions of this readme in another languages, please link here. Exemple:
 
-English | [Portuguese](README-pt.md)
+English | [Portuguese](README-pt.MD)
 
 # Table of Contents
 
