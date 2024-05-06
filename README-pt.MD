@@ -164,10 +164,7 @@ Exemplo:
         + Desativar o Captive Portal Assistant e forçar o login através do navegador em redes não confiáveis?
             - O Captive Portal Assistant poderia ser acionado e direcioná-lo para um site malicioso SEM qualquer interação do usuário.
 
-</details>
-<details><summary><b>Formato da mensagem de
-
- saúde</b></summary>
+</details><details><summary><b>Formato da mensagem de saúde</b></summary>
 
 A cada dez segundos, o gateway envia uma mensagem de saúde para o broker. Através dessa mensagem, é possível monitorar certos aspectos da operação do dispositivo.
 
