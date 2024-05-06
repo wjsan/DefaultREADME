@@ -139,7 +139,7 @@ Outra recomendação é colocar uma tabela simples de compilação com os parâm
 
 # Como usar o programa
 
-Antes da instalação, é bom ter uma seção para explicar como usar o programa da maneira como foi pretendido ser usado, então explique quais parâmetros ele pode receber, entradas comuns e suas saídas esperadas, etc. Se necessário, você também pode criar uma seção de **Configuração** para explicar melhor como configurar o programa. Dependendo do programa, é possível criar outra seção apenas para explicar quais são os formatos de pacote usados e exemplos de mensagens com eles sendo enviados.
+Antes da instalação (não seria após a instalação, já que essa seção está após a seção de isntalação?) , é bom ter uma seção para explicar como usar o programa da maneira como foi pretendido ser usado, então explique quais parâmetros ele pode receber, entradas comuns e suas saídas esperadas, etc. Se necessário, você também pode criar uma seção de **Configuração** para explicar melhor como configurar o programa. Dependendo do programa, é possível criar outra seção apenas para explicar quais são os formatos de pacote usados e exemplos de mensagens com eles sendo enviados.
 
 Exemplo:
 
