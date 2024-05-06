@@ -342,6 +342,8 @@ Exemplo de mensagem:
 
 </details><p>
 
+Acredito que documentações de API, estrutura de dados, etc, serão realizadas em outros documentos. Esses documentos podem ser referenciados na seção final do readme.md. Dessa forma, o readme principal do repositório fica responsável apenas por instruir como clonar, compilar e executar a aplicação.
+
 Se o programa também puder se comunicar com alguma API, você também pode criar uma seção e colocar as informações nela, com exemplos de uma solicitação e resposta da API. Exemplo:
 
 <details><summary><b>API de Gateway</b></summary>
