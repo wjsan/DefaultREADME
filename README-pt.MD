@@ -8,19 +8,18 @@ Inglês | [Português](README-pt.md)
 
 # Índice
 
+- [Nome do Repositório](#nome-do-repositório)
+- [Índice](#índice)
 - [Pré-instalação](#pré-instalação)
-    - [Linux (Debian)](#linux-debian)
-    - [Linux (Arch)](#linux-arch)
-    - [Windows (Chocolatey)](#windows-chocolatey)
-    - [Windows (Instalador)](#windows-instalador)
+  - [Linux (Debian)](#linux-debian)
+  - [Linux (Arch)](#linux-arch)
+  - [Windows (Chocolatey)](#windows-chocolatey)
+  - [Windows (Instalador)](#windows-instalador)
 - [Instalação](#instalação)
-    - [Clonando o repositório](#clonando-o-repositório)
-    - [Criando um diretório de compilação](#criando-um-diretório-de-compilação)
-    - [Compilando o programa](#compilando-o-programa)
 - [Como usar o programa](#como-usar-o-programa)
-    - [Firewall](#firewall) 
-    - [Formato da mensagem de saúde](#formato-da-mensagem-de-saúde)
-    - [API de Gateway](#api-de-gateway)
+  - [Iniciar Interface Ethernet](#iniciar-interface-ethernet)
+    - [Solicitação](#solicitação)
+    - [Resposta](#resposta)
 
 # Pré-instalação
 
