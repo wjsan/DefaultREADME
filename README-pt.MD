@@ -88,6 +88,12 @@ Exemplo:
 
 Na imagem acima, você pode entender facilmente quais passos deve seguir e em que ordem, mas é uma boa prática explicar o conteúdo na imagem para garantir que seja entendido corretamente.
 
+Dar preferência para imagens que estejam hospedadas na internet, para não poluir o repositório com arquivos de imagens. Mas caso seja necessário, adicionar uma pasta "images", inserir as imagens nesse repostitório com o nome no seguinte formato: "1_nome_da_imagem.png", e referenciá-la no readme de forma relativa: 
+
+```markdown
+![import_file](images/1_nome_da_imagem.png)
+```
+
 <details><summary><b>Clonando o repositório</b></summary>
 
 
