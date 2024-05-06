@@ -36,7 +36,7 @@ Exemplo:
     sudo apt install python3
     ```
 
-</details>
+</details><p>
 
 <details><summary><b>Linux (Arch)</b></summary>
 
@@ -48,7 +48,7 @@ Exemplo:
     sudo pacman -S python
     ```
 
-</details>
+</details><p>
 
 <details><summary><b>Windows (Chocolatey)</b></summary>
 
@@ -60,7 +60,7 @@ Exemplo:
     choco install python
     ```
 
-</details>
+</details><p>
 
 
 <details><summary><b>Windows (Instalador)</b></summary>
@@ -71,7 +71,7 @@ Exemplo:
 
    Para instalar o python, você precisará executar o instalador localizado no [site oficial do python](https://www.python.org/downloads/)
 
-</details>
+</details><p>
 
 # Instalação
 
@@ -103,7 +103,7 @@ Primeiro, é necessário clonar o repositório, o que pode ser feito pelo seguin
 git clone (URL do repositório)
 ```
 
-</details>
+</details><p>
 
 <details><summary><b>Preparação para a compilação</b></summary>
 
@@ -115,7 +115,7 @@ Agora, antes de executar o CMAKE, é necessário criar uma pasta chamada build e
 mkdir build && cd build
 ```
 
-</details>
+</details><p>
 
 <details><summary><b>Compilando o programa</b></summary>
 
@@ -135,7 +135,7 @@ Outra recomendação é colocar uma tabela simples de compilação com os parâm
 | make       | Compila o programa com o compilador g++, o resultado está na pasta build |
 | make run   | Compila e depois executa o programa na pasta build                    |
 
-</details>
+</details><p>
 
 # Como usar o programa
 
@@ -164,7 +164,9 @@ Exemplo:
         + Desativar o Captive Portal Assistant e forçar o login através do navegador em redes não confiáveis?
             - O Captive Portal Assistant poderia ser acionado e direcioná-lo para um site malicioso SEM qualquer interação do usuário.
 
-</details><details><summary><b>Formato da mensagem de saúde</b></summary>
+</details><p>
+
+<details><summary><b>Formato da mensagem de saúde</b></summary>
 
 A cada dez segundos, o gateway envia uma mensagem de saúde para o broker. Através dessa mensagem, é possível monitorar certos aspectos da operação do dispositivo.
 
@@ -239,7 +241,7 @@ Exemplo de mensagem:
 }
 ```
 
-</details>
+</details><p>
 
 Se o programa também puder se comunicar com alguma API, você também pode criar uma seção e colocar as informações nela, com exemplos de uma solicitação e resposta da API. Exemplo:
 
@@ -281,4 +283,4 @@ Para usar esta API no MQTT, publique solicitações para `B2D/$companyId/$mac/$d
 }
 ```
 
-</details>
+</details><p>
