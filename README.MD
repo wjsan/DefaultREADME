@@ -10,13 +10,14 @@ English | [Portuguese](README-pt.MD)
 # Table of Contents
 
 - [Pre-Installation](#pre-installation)
+    - [Requirements]  ---------------------------------------> Pode ser interessante adicionar uma seção de requirements. E talvez ter documentações separadas com instruções de como instalar os requirements, ou pelo menos referencias para as páginas de get-started caso isso seja suficiente em cada requirement.
     - [Linux (Debian)](#linux-debian)
     - [Linux (Arch)](#linux-arch)
     - [Windows (Chocolatey)](#windows-chocolatey)
     - [Windows (Installer)](#windows-installer)
 - [Installation](#installation)
     - [Cloning the repository](#cloning-the-repository)
-    - [Creating a build directory](#creating-a-build-directory)
+    - [Creating a build directory](#creating-a-build-directory)  -------------> Provavelmente somente diretórios em ANSI C terão essa seção. Pode manter isso aqui, mas não sei se seria interessante por uma observação. 
     - [Compiling the program](#compiling-the-program)
 - [How to use the program](#how-to-use-the-program)
     - [Firewall](#firewall) 
