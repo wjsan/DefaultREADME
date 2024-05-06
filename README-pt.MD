@@ -69,19 +69,16 @@ Exemplo:
 
 1. Instale o python usando o instalador:
 
-   Para instalar o python, você precisará executar o instalador localizado no
-   [site oficial do python](https://www.python.org/downloads/)
+   Para instalar o python, você precisará executar o instalador localizado no [site oficial do python](https://www.python.org/downloads/)
 
 </details>
 
 # Instalação
 
-Nesta seção, você deve começar com a instalação do próprio projeto. Para manter o repositório bem
-organizado, você também pode criar várias subseções quebrando o processo de instalação em partes menores para ajudar na
+Nesta seção, você deve começar com a instalação do próprio projeto. Para manter o repositório bem organizado, você também pode criar várias subseções quebrando o processo de instalação em partes menores para ajudar na
 melhor compreensão do processo.
 
-Se alguma parte da instalação for considerada complexa, adicionar imagens e GIFs também pode ajudar, especialmente quando for
-necessário encontrar um botão em uma interface ou clicar em várias configurações em um menu seguindo uma ordem específica.
+Se alguma parte da instalação for considerada complexa, adicionar imagens e GIFs também pode ajudar, especialmente quando for necessário encontrar um botão em uma interface ou clicar em várias configurações em um menu seguindo uma ordem específica.
 
 Exemplo:
 
@@ -89,8 +86,7 @@ Exemplo:
  <img src="https://raw.githubusercontent.com/espressif/vscode-esp-idf-extension/master/media/tutorials/setup/install-extension.png" alt="Assistente de configuração">
 </center>
 
-Na imagem acima, você pode entender facilmente quais passos deve seguir e em que ordem, mas é uma boa prática
-explicar o conteúdo na imagem para garantir que seja entendido corretamente.
+Na imagem acima, você pode entender facilmente quais passos deve seguir e em que ordem, mas é uma boa prática explicar o conteúdo na imagem para garantir que seja entendido corretamente.
 
 <details><summary><b>Clonando o repositório</b></summary>
 
@@ -105,8 +101,7 @@ git clone (URL do repositório)
 
 <details><summary><b>Criando um diretório de compilação</b></summary>
 
-Agora, antes de executar o CMAKE, é necessário criar uma pasta chamada build e depois mudar para essa pasta. Isso pode ser
-feito usando o seguinte comando:
+Agora, antes de executar o CMAKE, é necessário criar uma pasta chamada build e depois mudar para essa pasta. Isso pode ser feito usando o seguinte comando:
 
 ```bash
 mkdir build && cd build
@@ -120,8 +115,7 @@ mkdir build && cd build
 cmake ..
 ```
 
-Em algumas partes da instalação, onde erros comuns podem ocorrer, é recomendável usar um aviso explicando
-como as coisas podem dar errado e erros comuns que podem ser cometidos. Exemplo:
+Em algumas partes da instalação, onde erros comuns podem ocorrer, é recomendável usar um aviso explicando como as coisas podem dar errado e erros comuns que podem ser cometidos. Exemplo:
 
 > **Aviso:** Tenha cuidado para não executar o MAKEFILE como superusuário, isso pode danificar seu sistema operacional.
 
@@ -137,11 +131,7 @@ Outra recomendação é colocar uma tabela simples de compilação com os parâm
 
 # Como usar o programa
 
-Antes da instalação, é bom ter uma seção para explicar como usar o programa da maneira como foi pretendido
-ser usado, então explique quais parâmetros ele pode receber, entradas comuns e suas saídas esperadas, etc. Se necessário, você também pode
-criar uma seção de **Configuração** para explicar melhor como configurar o programa. Dependendo do programa, é
-possível criar outra seção apenas para explicar quais são os formatos de pacote usados e exemplos de mensagens com eles
-sendo enviados.
+Antes da instalação, é bom ter uma seção para explicar como usar o programa da maneira como foi pretendido ser usado, então explique quais parâmetros ele pode receber, entradas comuns e suas saídas esperadas, etc. Se necessário, você também pode criar uma seção de **Configuração** para explicar melhor como configurar o programa. Dependendo do programa, é possível criar outra seção apenas para explicar quais são os formatos de pacote usados e exemplos de mensagens com eles sendo enviados.
 
 Exemplo:
 
@@ -171,8 +161,7 @@ Exemplo:
 
  saúde</b></summary>
 
-A cada dez segundos, o gateway envia uma mensagem de saúde para o broker. Através dessa mensagem, é possível monitorar
-certos aspectos da operação do dispositivo.
+A cada dez segundos, o gateway envia uma mensagem de saúde para o broker. Através dessa mensagem, é possível monitorar certos aspectos da operação do dispositivo.
 
 ```c
 {
@@ -251,11 +240,9 @@ Se o programa também puder se comunicar com alguma API, você também pode cria
 
 <details><summary><b>API de Gateway</b></summary>
 
-É possível se comunicar com o dispositivo usando a API de Gateway que pode ser acessada por um cliente HTTP local ou um cliente MQTT
-conectado ao mesmo broker do dispositivo.
+É possível se comunicar com o dispositivo usando a API de Gateway que pode ser acessada por um cliente HTTP local ou um cliente MQTT conectado ao mesmo broker do dispositivo.
 
-Para usar esta API no MQTT, publique solicitações para `B2D/$companyId/$mac/$deviceId` e inscreva-se em
-`C2B/$companyId/$mac/$deviceId/ackGtw` para receber respostas do dispositivo.
+Para usar esta API no MQTT, publique solicitações para `B2D/$companyId/$mac/$deviceId` e inscreva-se em `C2B/$companyId/$mac/$deviceId/ackGtw` para receber respostas do dispositivo.
 
 ## Iniciar Interface Ethernet
 
