@@ -105,7 +105,9 @@ git clone (URL do repositório)
 
 </details>
 
-<details><summary><b>Criando um diretório de compilação</b></summary>
+<details><summary><b>Preparação para a compilação</b></summary>
+
+Pode ser necessário realizar alguns comandos antes da compilação do repositório, ou mesmo algum ajuste nas configurações do projeto. Em repositórios que usam node.js por exemplo, pode ser necessário o comando `npm install` ou `yarn install`. Em projetos que usam cmake pode ser necessário criar o diretório de build antes da compilação conforme exemplo abaixo. Assim nessa seção devem ser descritos esses procedimentos. Abaixo temos um exemplo demonstrando como preparar o ambiente para realizar a compilação de uma aplicação feita em ANSI C com cmake:
 
 Agora, antes de executar o CMAKE, é necessário criar uma pasta chamada build e depois mudar para essa pasta. Isso pode ser feito usando o seguinte comando:
 
