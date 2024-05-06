@@ -213,9 +213,7 @@ typedef enum {
     ESP_RST_EXT,        ///< Reinicialização por um pino externo (não aplicável ao ESP32)
     ESP_RST_SW,         ///< Reinicialização de software via esp_restart
     ESP_RST_PANIC,      ///< Reinicialização de software devido a exceção/pancada
-    ESP_RST_INT_WDT,    ///< Reinicialização (
-
-software ou hardware) devido ao watchdog de interrupção
+    ESP_RST_INT_WDT,    ///< Reinicialização (software ou hardware) devido ao watchdog de interrupção
     ESP_RST_TASK_WDT,   ///< Reinicialização devido a watchdog de tarefa
     ESP_RST_WDT,        ///< Reinicialização devido a outros watchdogs
     ESP_RST_DEEPSLEEP,  ///< Reinicialização após sair do modo de hibernação profunda
