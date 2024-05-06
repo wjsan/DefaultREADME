@@ -168,6 +168,8 @@ Exemplo:
 
 Adicionar ao final do readme, um exemplo de saída do console da aplicação após a compilação. Dessa forma, é possível ter uma referencia básica de como o programa deve se comportar durante as etapas inicias da sua execução. Grande parte dos problemas acontece nessa etapa, então isso pode ser útil para que seja possível identificar se algo deu errado. Abaixo segue um exemplo de saída da aplicação v3.4.0 do firmware do esp32 rodando em um HG3 V1:
 
+<details><summary><b>Saída do console</b></summary>
+
 ```plain-text
 rst:0x1 (POWERON_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
 configsip: 0, SPIWP:0xee
@@ -262,6 +264,8 @@ I (00:00:09.867) hg_app: HG_APP_MSG_ID_RESET_TASK_WDT
 I (00:00:11.867) hg_app: HG_APP_MSG_ID_RESET_TASK_WDT
 I (00:00:13.867) hg_app: HG_APP_MSG_ID_RESET_TASK_WDT
 ```
+
+</details><p>
 
 <details><summary><b>Formato da mensagem de saúde</b></summary>
 
